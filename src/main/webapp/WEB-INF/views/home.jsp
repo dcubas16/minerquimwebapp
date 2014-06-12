@@ -30,6 +30,7 @@
 				<div class="item active" style="height: 500px;">
 					<img src="resources/images/Proveedor-quimicos-para-Mineria.jpg"
 						alt="First slide" style="height: 500px;">
+
 				</div>
 				<div class="item" style="height: 500px;">
 					<img src="resources/images/leather_2.jpg" alt="Second slide"
@@ -46,7 +47,14 @@
 				class="right carousel-control" href="#myCarousel" data-slide="next"
 				style="padding-top: 0px; height: 500px;"><span
 				class="glyphicon glyphicon-chevron-right" style=""></span></a>
+			<div class="homepage-title-contaier">
+				<div class="homepage-title">Let's build a better Enterprise.</div>
+				<div class="homepage-subtitle">Let's build a better Enterprise.</div>
+				<div class="homepage-subtitle">Let's build a better Enterprise.</div>
+			</div>
+
 		</div>
+
 		<!-- /.carousel -->
 
 		<!-- Marketing messaging and featurettes
