@@ -58,7 +58,7 @@
 }
 
 .homepage-title-contaier {
-	display: inline-block;
+/* 	display: inline-block; */
 	position: absolute;
 	top: 300;
 	text-align: center;

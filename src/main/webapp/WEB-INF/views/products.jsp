@@ -33,7 +33,7 @@
 					<div class="col-6 col-sm-6 col-lg-6">
 						<div class="col-xs-12 col-md-12">
 							<a href="#" class="thumbnail"> <img
-								src="resources/images/leather (4).jpg">
+								src="resources/images/leather_14.jpg">
 							</a>
 						</div>
 						<h2>Insumos Químicos para la Industria del Cuero</h2>

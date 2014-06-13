@@ -11,16 +11,10 @@
 ================================================== -->
 <body class="body-style">
 	<c:import url="../views/jspf/header.jsp" />
-
-	<!-- Marketing messaging and featurettes
-    ================================================== -->
-	<!-- Wrap the rest of the page in another container to center all the content. -->
-
-	<div class="container"
-		style="padding-top: 0px; margin-top: 80px; height: 400px;">
+	<div class="container marketing">
 		<!-- START THE FEATURETTES -->
 
-		<div class="row featurette">
+		<div class="row" style="height: 100%; padding-top: 50px;">
 			<div class="col-md-7">
 				<h2 class="featurette-heading" style="margin-top: 20px;">
 					Minerquim<span class="text-muted"></span>
@@ -36,6 +30,8 @@
 			</div>
 		</div>
 	</div>
+
+
 	<c:import url="../views/jspf/footer.jsp" />
 </body>
 <script>

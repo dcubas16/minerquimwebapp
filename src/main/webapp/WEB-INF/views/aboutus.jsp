@@ -35,7 +35,7 @@
 		<div class="row featurette">
 			<div class="col-md-5">
 				<a href="#" class="thumbnail"> <img
-					 src="resources/images/12-10-10-SHINOLA-HORWEEN-11510.jpg">
+					src="resources/images/leather_11.jpg">
 				</a>
 
 			</div>
@@ -43,9 +43,18 @@
 				<h2 class="featurette-heading" style="margin-top: 20px;">
 					Misión<span class="text-muted"></span>
 				</h2>
-				<p class="lead">Brindar a nuestros Clientes insumos químicos y
-					servicios que ayuden a mejorar la calidad de sus productos, siempre
-					teniendo en cuenta la puntualidad y calidad</p>
+				<p class="lead">
+					Somos una empresa proveedora de productos químicos especializados y
+					servicios asociados enfocados a nuestros clientes para aportarles
+					soluciones que se traduzcan en ventajas competitivas para sus
+					negocios. Desarrollamos nuestras actividades con crecimiento
+					rentable de acuerdo con la política de mejoramiento continuo; con
+					talento humano y valor agregado que satisfaga las expectativas de
+					los clientes, permitiendo un reconocimiento satisfactorio para
+					nuestros empleados.<br> Garantizamos un total respeto por la
+					protección del medio ambiente, la ética y los valores que permitan
+					un progreso responsable.
+				</p>
 			</div>
 		</div>
 		<hr class="featurette-divider">
@@ -54,9 +63,15 @@
 				<h2 class="featurette-heading" style="margin-top: 20px;">
 					Visión<span class="text-muted"></span>
 				</h2>
-				<p class="lead">Ser la empresa lider en el mercado nacional y
-					regional en la venta de insumos químicos acompañados de servicios
-					de alta calidad para las industria mineras y del cuero</p>
+				<p class="lead">Ser una empresa líder en el suministro,
+					distribución de productos químicos especiales para diferentes
+					procesos de transformación en el mercado nacional, preferidos por
+					nuestros clientes por la calidad, servicio, funcionalidad y costo
+					acordes con los más altos estándares internacionales. <br>Por
+					consiguiente ser la columna vertebral de un grupo empresarial que
+					en el Sector Químico genere con su gestión la mayor competitividad
+					y permita el crecimiento de sus colaboradores en una interacción
+					viable</p>
 			</div>
 			<div class="col-md-5">
 				<a href="#" class="thumbnail"> <img

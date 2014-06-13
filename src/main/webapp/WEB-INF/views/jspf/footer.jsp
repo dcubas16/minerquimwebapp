@@ -5,7 +5,7 @@
 
 <!-- <hr class="featurette-divider"> -->
 <!-- FOOTER -->
-<footer style="margin-bottom: 0px; margin-top: 40px;">
+<footer style="margin-bottom: 0px;">
 	<div class="container"
 		style="background-image: url(resources/images/headerBackGround.jpg); margin-left: 0px; margin-right: 0px; width: 100%; height: 70px;">
 		<div class="row" style="padding-top: 25px;">

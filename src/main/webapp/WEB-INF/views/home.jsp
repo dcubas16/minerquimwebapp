@@ -19,55 +19,53 @@
 
 	<div id="main-content">
 		<div id="myCarousel" class="carousel slide" data-ride="carousel"
-			style="padding-top: 0px; height: 500px; margin-bottom: 0px;">
+			style="padding-top: 0px; height: 550px; margin-bottom: 0px;">
 			<!-- Indicators -->
 			<ol class="carousel-indicators">
 				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 				<li data-target="#myCarousel" data-slide-to="1" class=""></li>
 				<li data-target="#myCarousel" data-slide-to="2" class=""></li>
 			</ol>
-			<div class="carousel-inner" style="height: 500px;">
-				<div class="item active" style="height: 500px;">
-					<img src="resources/images/Proveedor-quimicos-para-Mineria.jpg"
-						alt="First slide" style="height: 500px;">
+			<div class="carousel-inner" style="height: 550px;">
+				<div class="item active" style="height: 550px;">
+					<img src="resources/images/mining_21.jpg" alt="First slide"
+						style="height: 550px;">
 
 				</div>
-				<div class="item" style="height: 500px;">
+				<div class="item" style="height: 550px;">
 					<img src="resources/images/leather_2.jpg" alt="Second slide"
-						style="height: 500px;">
+						style="height: 550px;">
 				</div>
-				<div class="item" style="height: 500px;">
-					<img src="resources/images/ejecutivos varios7.jpg"
-						alt="Third slide">
+				<div class="item" style="height: 550px;">
+					<img src="resources/images/human_resource_3.jpg" alt="Third slide"
+						style="height: 550px;">
 				</div>
 			</div>
 			<a class="left carousel-control" href="#myCarousel" data-slide="prev"
-				style="padding-top: 0px; height: 500px;"><span
+				style="padding-top: 0px; height: 550px;"><span
 				class="glyphicon glyphicon-chevron-left" style=""></span></a> <a
 				class="right carousel-control" href="#myCarousel" data-slide="next"
-				style="padding-top: 0px; height: 500px;"><span
+				style="padding-top: 0px; height: 550px;"><span
 				class="glyphicon glyphicon-chevron-right" style=""></span></a>
-			<div class="homepage-title-contaier container-fluid">
+			<div class="container-fluid"
+				style="position: absolute; top: 350; text-align: center; width: 100%; font-family: Montserrat, sans-serif;">
 				<div class="homepage-title">Proveemos insumos químicos de
 					calidad</div>
+			</div>
+			<div class="container-fluid"
+				style="position: absolute; top: 418; text-align: center; width: 100%; font-family: Montserrat, sans-serif;">
 				<div class="homepage-subtitle">para la industria minera y del
 					cuero</div>
+			</div>
+			<div class="container-fluid"
+				style="position: absolute; top: 450; text-align: center; width: 100%; font-family: Montserrat, sans-serif;">
 				<div class="homepage-subtitle">acompañado de un adecuado
 					servicio de asesoramiento técnico</div>
 			</div>
-
 		</div>
-
-		<!-- /.carousel -->
-
-		<!-- Marketing messaging and featurettes
-    ================================================== -->
-		<!-- Wrap the rest of the page in another container to center all the content. -->
 		<div class="row">
 			<div class="col-md-12">
-
 				<div class="row" style="padding-top: 80px;">
-					<!-- 					<hr class="featurette-divider"> -->
 					<div class="col-md-1"></div>
 					<div class="col-md-10">
 						<div class="row featurette">
@@ -82,8 +80,10 @@
 								</p>
 							</div>
 							<div class="col-md-5">
-								<img class="featurette-image img-responsive"
-									src="resources/images/oro.jpg" alt="500x500">
+								<a href="#" class="thumbnail"><img
+									class="featurette-image img-responsive"
+									src="resources/images/oro.jpg" alt="500x500"></a>
+
 							</div>
 						</div>
 					</div>
@@ -96,9 +96,10 @@
 
 						<div class="row featurette">
 							<div class="col-md-5">
-								<img class="featurette-image img-responsive"
-									src="resources/images/12-10-10-SHINOLA-HORWEEN-11510.jpg"
-									alt="500x500">
+								<a href="#" class="thumbnail"><img
+									class="featurette-image img-responsive"
+									src="resources/images/leather_13.jpg" alt="500x500"></a>
+
 							</div>
 							<div class="col-md-7">
 								<h2 class="featurette-heading">
@@ -114,7 +115,7 @@
 					</div>
 					<div class="col-md-1"></div>
 				</div>
-				<div class="row">
+				<div class="row" style="padding-bottom: 80px;">
 					<hr class="featurette-divider">
 					<div class="col-md-1"></div>
 					<div class="col-md-10">
@@ -130,12 +131,14 @@
 								</p>
 							</div>
 							<div class="col-md-5">
-								<img class="featurette-image img-responsive"
+								<a href="#" class="thumbnail"><img
+									class="featurette-image img-responsive"
 									src="resources/images/coaching-ejecutivos-top.jpg"
-									alt="500x500">
+									alt="500x500"></a>
+
+
 							</div>
 						</div>
-
 					</div>
 					<div class="col-md-1"></div>
 				</div>
