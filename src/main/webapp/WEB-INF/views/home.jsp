@@ -63,7 +63,7 @@
 					servicio de asesoramiento técnico</div>
 			</div>
 		</div>
-		<div class="row">
+		<div class="row" style="margin-left: 0px; margin-right: 0px;">
 			<div class="col-md-12">
 				<div class="row" style="padding-top: 80px;">
 					<div class="col-md-1"></div>
