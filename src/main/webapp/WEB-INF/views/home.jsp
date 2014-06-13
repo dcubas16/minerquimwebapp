@@ -19,7 +19,7 @@
 
 	<div id="main-content">
 		<div id="myCarousel" class="carousel slide" data-ride="carousel"
-			style="padding-top: 0px; height: 500px; margin-bottom: 30px;">
+			style="padding-top: 0px; height: 500px; margin-bottom: 0px;">
 			<!-- Indicators -->
 			<ol class="carousel-indicators">
 				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -47,10 +47,13 @@
 				class="right carousel-control" href="#myCarousel" data-slide="next"
 				style="padding-top: 0px; height: 500px;"><span
 				class="glyphicon glyphicon-chevron-right" style=""></span></a>
-			<div class="homepage-title-contaier">
-				<div class="homepage-title">Let's build a better Enterprise.</div>
-				<div class="homepage-subtitle">Let's build a better Enterprise.</div>
-				<div class="homepage-subtitle">Let's build a better Enterprise.</div>
+			<div class="homepage-title-contaier container-fluid">
+				<div class="homepage-title">Proveemos insumos químicos de
+					calidad</div>
+				<div class="homepage-subtitle">para la industria minera y del
+					cuero</div>
+				<div class="homepage-subtitle">acompañado de un adecuado
+					servicio de asesoramiento técnico</div>
 			</div>
 
 		</div>
@@ -60,65 +63,83 @@
 		<!-- Marketing messaging and featurettes
     ================================================== -->
 		<!-- Wrap the rest of the page in another container to center all the content. -->
-		<div class="container marketing">
-			<!-- /.row -->
-			<!-- START THE FEATURETTES -->
-			<hr class="featurette-divider">
-			<div class="row featurette">
-				<div class="col-md-7">
-					<h2 class="featurette-heading">
-						<spring:message code="label.miningActivityTitle" />
-						<span class="text-muted"><spring:message
-								code="label.miningActivitySecondTitle" /></span>
-					</h2>
-					<p class="lead">
-						<spring:message code="label.miningActivityDescription" />
-					</p>
-				</div>
-				<div class="col-md-5">
-					<img class="featurette-image img-responsive"
-						src="resources/images/oro.jpg" alt="500x500">
-				</div>
-			</div>
-			<hr class="featurette-divider">
-			<div class="row featurette">
-				<div class="col-md-5">
-					<img class="featurette-image img-responsive"
-						src="resources/images/12-10-10-SHINOLA-HORWEEN-11510.jpg"
-						alt="500x500">
-				</div>
-				<div class="col-md-7">
-					<h2 class="featurette-heading">
-						<spring:message code="label.leatherIndustryActivityTitle" />
-						<span class="text-muted"><spring:message
-								code="label.leatherIndustryActivitySecondTitle" /></span>
-					</h2>
-					<p class="lead">
-						<spring:message code="label.leatherIndustryActivityDescription" />
-					</p>
-				</div>
-			</div>
-			<hr class="featurette-divider">
-			<div class="row featurette">
-				<div class="col-md-7">
-					<h2 class="featurette-heading">
-						<spring:message code="label.servicesActivityTitle" />
-						<span class="text-muted"><spring:message
-								code="label.servicesActivitySecondTitle" /></span>
-					</h2>
-					<p class="lead">
-						<spring:message code="label.servicesActivityDescription" />
-					</p>
-				</div>
-				<div class="col-md-5">
-					<img class="featurette-image img-responsive"
-						src="resources/images/coaching-ejecutivos-top.jpg" alt="500x500">
-				</div>
-			</div>
-			<!-- /END THE FEATURETTES -->
-			<!-- FOOTER -->
+		<div class="row">
+			<div class="col-md-12">
 
+				<div class="row" style="padding-top: 80px;">
+					<!-- 					<hr class="featurette-divider"> -->
+					<div class="col-md-1"></div>
+					<div class="col-md-10">
+						<div class="row featurette">
+							<div class="col-md-7">
+								<h2 class="featurette-heading">
+									<spring:message code="label.miningActivityTitle" />
+									<span class="text-muted"><spring:message
+											code="label.miningActivitySecondTitle" /></span>
+								</h2>
+								<p class="lead">
+									<spring:message code="label.miningActivityDescription" />
+								</p>
+							</div>
+							<div class="col-md-5">
+								<img class="featurette-image img-responsive"
+									src="resources/images/oro.jpg" alt="500x500">
+							</div>
+						</div>
+					</div>
+					<div class="col-md-1"></div>
+				</div>
+				<div class="row">
+					<hr class="featurette-divider">
+					<div class="col-md-1"></div>
+					<div class="col-md-10">
 
+						<div class="row featurette">
+							<div class="col-md-5">
+								<img class="featurette-image img-responsive"
+									src="resources/images/12-10-10-SHINOLA-HORWEEN-11510.jpg"
+									alt="500x500">
+							</div>
+							<div class="col-md-7">
+								<h2 class="featurette-heading">
+									<spring:message code="label.leatherIndustryActivityTitle" />
+									<span class="text-muted"><spring:message
+											code="label.leatherIndustryActivitySecondTitle" /></span>
+								</h2>
+								<p class="lead">
+									<spring:message code="label.leatherIndustryActivityDescription" />
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-1"></div>
+				</div>
+				<div class="row">
+					<hr class="featurette-divider">
+					<div class="col-md-1"></div>
+					<div class="col-md-10">
+						<div class="row featurette">
+							<div class="col-md-7">
+								<h2 class="featurette-heading">
+									<spring:message code="label.servicesActivityTitle" />
+									<span class="text-muted"><spring:message
+											code="label.servicesActivitySecondTitle" /></span>
+								</h2>
+								<p class="lead">
+									<spring:message code="label.servicesActivityDescription" />
+								</p>
+							</div>
+							<div class="col-md-5">
+								<img class="featurette-image img-responsive"
+									src="resources/images/coaching-ejecutivos-top.jpg"
+									alt="500x500">
+							</div>
+						</div>
+
+					</div>
+					<div class="col-md-1"></div>
+				</div>
+			</div>
 
 		</div>
 	</div>

@@ -61,7 +61,8 @@
 	display: inline-block;
 	position: absolute;
 	top: 300;
-	left: 30%
+	text-align: center;
+/* 	left: 30% */
 }
 
 .homepage-title {
@@ -82,5 +83,4 @@
 	background: rgba(52, 48, 45, .8);
 	color: #f1f1f1;
 	display: inline-block;
-
 }
