@@ -18,7 +18,7 @@
 				<div class="row">
 					<div class="col-md-6">
 						<h3>Envianos un Mensaje</h3>
-						<form class="form-horizontal" role="form">
+						<form class="form-horizontal" role="form" action="Mail/sendMail.htm">
 							<div class="form-group">
 								<div class="col-md-8">
 									<input type="email" class="form-control input-sm"
@@ -46,7 +46,7 @@
 							<div class="form-group" style="padding-right: 15px;">
 								<div class="col-md-8"></div>
 								<div class="col-md-2">
-									<button type="submit" class="btn btn-primary">Limpiar</button>
+									<button type="button" class="btn btn-primary">Limpiar</button>
 								</div>
 								<div class="col-md-2">
 									<button type="submit" class="btn btn-primary">Enviar</button>
