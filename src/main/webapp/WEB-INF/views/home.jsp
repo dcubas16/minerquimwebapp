@@ -28,7 +28,7 @@
 			</ol>
 			<div class="carousel-inner" style="height: 550px;">
 				<div class="item active" style="height: 550px;">
-					<img src="resources/images/mining_21.jpg" alt="First slide"
+					<img src="resources/images/mining_26_dim.jpg" alt="First slide"
 						style="height: 550px;">
 
 				</div>
@@ -37,7 +37,7 @@
 						style="height: 550px;">
 				</div>
 				<div class="item" style="height: 550px;">
-					<img src="resources/images/human_resource_3.jpg" alt="Third slide"
+					<img src="resources/images/human_resource_3_dim.jpg" alt="Third slide"
 						style="height: 550px;">
 				</div>
 			</div>
@@ -58,7 +58,7 @@
 					cuero</div>
 			</div>
 			<div class="container-fluid"
-				style="position: absolute; top: 450; text-align: center; width: 100%; font-family: Montserrat, sans-serif;">
+				style="position: absolute; top: 452; text-align: center; width: 100%; font-family: Montserrat, sans-serif;">
 				<div class="homepage-subtitle">acompañado de un adecuado
 					servicio de asesoramiento técnico</div>
 			</div>
@@ -80,7 +80,7 @@
 								</p>
 							</div>
 							<div class="col-md-5">
-								<a href="#" class="thumbnail"><img
+								<a href="products.htm" class="thumbnail"><img
 									class="featurette-image img-responsive"
 									src="resources/images/oro.jpg" alt="500x500"></a>
 
@@ -93,10 +93,9 @@
 					<hr class="featurette-divider">
 					<div class="col-md-1"></div>
 					<div class="col-md-10">
-
 						<div class="row featurette">
 							<div class="col-md-5">
-								<a href="#" class="thumbnail"><img
+								<a href="products.htm" class="thumbnail"><img
 									class="featurette-image img-responsive"
 									src="resources/images/leather_13.jpg" alt="500x500"></a>
 
@@ -131,12 +130,10 @@
 								</p>
 							</div>
 							<div class="col-md-5">
-								<a href="#" class="thumbnail"><img
+								<a href="services.htm" class="thumbnail"><img
 									class="featurette-image img-responsive"
 									src="resources/images/coaching-ejecutivos-top.jpg"
 									alt="500x500"></a>
-
-
 							</div>
 						</div>
 					</div>

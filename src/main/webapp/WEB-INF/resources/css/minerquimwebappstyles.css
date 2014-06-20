@@ -58,11 +58,9 @@
 }
 
 .homepage-title-contaier {
-/* 	display: inline-block; */
 	position: absolute;
 	top: 300;
 	text-align: center;
-/* 	left: 30% */
 }
 
 .homepage-title {
@@ -79,8 +77,18 @@
 .homepage-subtitle {
 	font-size: 22px;
 	line-height: 18px;
-	padding: 2px 19px 12px;
+	padding: 8px 19px 8px;
 	background: rgba(52, 48, 45, .8);
 	color: #f1f1f1;
 	display: inline-block;
 }
+
+/* dropdown-menu-minerquim-style, dropdown-menu-minerquim-style:hover, dropdown-menu-minerquim-style:open { */
+/* 	padding-top: 4px; */
+/* 	padding-bottom: 4px; */
+/* 	padding-right: 8px; */
+/* 	font-size: 11px; */
+/* 	color: #AAAAAA; */
+/* 	background-color: #4B4B4B; */
+/* 	border-color: #5C5C5C; */
+/* } */

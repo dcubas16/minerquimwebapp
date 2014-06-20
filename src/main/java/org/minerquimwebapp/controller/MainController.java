@@ -1,5 +1,8 @@
 package org.minerquimwebapp.controller;
 
+import java.util.Map;
+
+import org.minerquimwebapp.model.EmailMessage;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -40,8 +43,11 @@ public class MainController {
 	}
 	
 	@RequestMapping(value="contact.htm", method=RequestMethod.GET )
-	public String contact(Model model)
+	public String contact(Map<String, Object> model)
 	{
+		EmailMessage emailMessage = new EmailMessage();
+		model.put("emailSender", emailMessage);
+		
 		return "contact";
 	}
 	

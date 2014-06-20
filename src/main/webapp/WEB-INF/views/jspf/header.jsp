@@ -41,7 +41,7 @@
 					<spring:message code="label.spanish" />
 					&nbsp;<span class="caret"></span>
 				</button>
-				<ul class="dropdown-menu" role="menu">
+				<ul class="dropdown-menu dropdown-menu-minerquim-style" role="menu">
 					<li><a href="#"><span class="glyphicon bfh-flag-US"></span>
 						<spring:message code="label.english" />&nbsp;</a></li>
 				</ul>

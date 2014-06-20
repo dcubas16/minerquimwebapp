@@ -18,7 +18,7 @@
 				<div class="row">
 					<div class="col-6 col-sm-6 col-lg-6">
 						<div class="col-xs-12 col-md-12">
-							<a href="#" class="thumbnail"> <img
+							<a href="productsList.htm" class="thumbnail"> <img
 								src="resources/images/sapphire.jpg">
 							</a>
 						</div>
@@ -32,7 +32,7 @@
 					<!--/span-->
 					<div class="col-6 col-sm-6 col-lg-6">
 						<div class="col-xs-12 col-md-12">
-							<a href="#" class="thumbnail"> <img
+							<a href="productsList.htm" class="thumbnail"> <img
 								src="resources/images/leather_14.jpg">
 							</a>
 						</div>
@@ -40,7 +40,7 @@
 						<p>Ideales para la curtiembre de cuero, garantizando la
 							calidad de estos</p>
 						<p>
-							<a class="btn btn-default" href="aboutus.htm" role="button">Ver
+							<a class="btn btn-default" href="productsList.htm" role="button">Ver
 								»</a>
 						</p>
 					</div>

@@ -14,10 +14,13 @@ public class Mail {
 	public Mail() {
 	}
 
-	public void sendMail(String from, String to, String subject, String msg) {
-
+	public void sendMail(String from, String[] to, String subject, String msg) {
+		
 		SimpleMailMessage message = new SimpleMailMessage();
-
+		
+//		sendToList[0] = "dcubas16@gmail.com";
+//		sendToList[1] = "dcubas16@hotmail.com";
+		
 		message.setFrom(from);
 		message.setTo(to);
 		message.setSubject(subject);
