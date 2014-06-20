@@ -18,29 +18,30 @@
 				<div class="row">
 					<div class="col-md-6">
 						<h3>Envianos un Mensaje</h3>
-						<form class="form-horizontal" role="form" action="Mail/sendMail.htm">
+						<form id="sendEmailMessageForm" class="form-horizontal"
+							action="Mail/sendMail.htm" method="post">
 							<div class="form-group">
 								<div class="col-md-8">
-									<input type="email" class="form-control input-sm"
-										placeholder="Nombre">
+									<input type="text" class="form-control input-sm"
+										placeholder="Nombre" data-bv-field="names" name="names">
 								</div>
 							</div>
 							<div class="form-group">
 								<div class="col-md-8">
 									<input type="email" class="form-control input-sm"
-										placeholder="Email">
+										placeholder="Email" data-bv-field="email" name="email">
 								</div>
 							</div>
 							<div class="form-group">
 								<div class="col-md-8">
-									<input type="email" class="form-control input-sm"
-										placeholder="Telefono">
+									<input type="tel" class="form-control input-sm"
+										placeholder="Telefono" >
 								</div>
 							</div>
 							<div class="form-group">
 								<div class="col-md-12">
 									<textarea class="form-control" rows="3" placeholder="Mensaje"
-										style="height: 208px;"></textarea>
+										style="height: 208px;" data-bv-field="emailMessage" name="emailMessage"></textarea>
 								</div>
 							</div>
 							<div class="form-group" style="padding-right: 15px;">
@@ -84,7 +85,6 @@
 						</div>
 					</div>
 				</div>
-
 			</div>
 			<div class="col-md-1"></div>
 			<!-- 			<div class="col-md-1"></div> -->
@@ -103,6 +103,43 @@
 		};
 
 		ko.applyBindings(viewModel, $('body')[0]);
+	});
+
+	$(function() {
+		$('#sendEmailMessageForm').bootstrapValidator({
+			message : 'This value is not valid',
+			feedbackIcons : {
+				valid : 'glyphicon glyphicon-ok',
+				invalid : 'glyphicon glyphicon-remove',
+				validating : 'glyphicon glyphicon-refresh'
+			},
+			submitHandler : function(validator, form, submitButton) {
+				// Do nothing
+			},
+			fields : {
+				names : {
+					validators : {
+						notEmpty : {
+							message : 'The name is required'
+						}
+					}
+				},
+				email : {
+					validators : {
+						notEmpty : {
+							message : 'The email is required'
+						}
+					}
+				},
+				emailMessage : {
+					validators : {
+						notEmpty : {
+							message : 'The email message is required'
+						}
+					}
+				},
+			}
+		});
 	});
 </script>
 </html>
