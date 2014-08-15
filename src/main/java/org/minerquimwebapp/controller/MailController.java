@@ -20,8 +20,8 @@ public class MailController {
 			@ModelAttribute("emailSender") EmailMessage emailMessage) {
 		
 		String[] sendToList = new String[2];
-		sendToList[0] = "gerencia@minerquim.com";
-		sendToList[1] = "ventas@minerquim.com";
+		sendToList[0] = "dcubas16@hotmail.com";
+		sendToList[1] = "dcubas16@hotmail.com";
 
 		String newMessage = emailMessage.getEmailMessage();
 
