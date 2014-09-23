@@ -21,7 +21,7 @@
 					<div class="col-md-4"
 						style="padding-top: 6px; padding-left: 6px; padding-right: 6px;">
 						<a href="#" class="thumbnail"> <img
-							src="resources/images/Pouring_liquid_mercury_bionerd.jpg"
+							src="resources/images/Industrial-Sodium-Metabisulfite.jpg"
 							alt="300x200" style="width: 300px; height: 200px;">
 						</a>
 					</div>

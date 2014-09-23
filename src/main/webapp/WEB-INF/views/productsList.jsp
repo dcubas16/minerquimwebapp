@@ -19,14 +19,14 @@
 				<div class="row">
 					<div class="col-sm-6 col-md-4">
 						<div class="thumbnail">
-							<img
-								src="resources/images/Pouring_liquid_mercury_bionerd.jpg"
+							<img src="resources/images/Industrial-Sodium-Metabisulfite.jpg"
 								alt="300x200" style="width: 300px; height: 200px;">
 							<div class="caption">
-								<h3 style="margin-top: 5px;">Mercurio</h3>
-								<p>Cras justo odio, dapibus ac facilisis in, egestas eget
-									quam. Donec id elit non mi porta gravida at eget metus. Nullam
-									id dolor id nibh ultricies vehicula ut id elit.</p>
+								<h3 style="margin-top: 5px;">Sodium Metabisulfite</h3>
+								<p>Se usa como depresante para la obtención de zinc de las
+									rocas sulfatadas que contienen cobre, en un proceso en el cual
+									el cobre es separado por flotación y el zinc posteriormente se
+									separa del remanente.</p>
 								<p>
 								<div style="text-align: center;">
 									<a href="viewProducts.htm" class="btn btn-default"
@@ -35,30 +35,6 @@
 									</a> <a href="#" class="btn btn-default" role="button">Descargar<span>&nbsp;</span><span
 										class="glyphicon glyphicon-cloud-download"></span></a>
 								</div>
-								</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-6 col-md-4">
-						<div class="thumbnail">
-							<img
-								src="resources/images/Pouring_liquid_mercury_bionerd.jpg"
-								alt="300x200" src="" style="width: 300px; height: 200px;">
-							<div class="caption">
-								<h3 style="margin-top: 5px;">Mercurio</h3>
-								<p>Cras justo odio, dapibus ac facilisis in, egestas eget
-									quam. Donec id elit non mi porta gravida at eget metus. Nullam
-									id dolor id nibh ultricies vehicula ut id elit.</p>
-								<p>
-								<div style="text-align: center;">
-									<a href="#" class="btn btn-default" role="button">Ver <span>&nbsp;</span><span
-										class="glyphicon glyphicon-eye-open"></span>
-									</a> <a href="viewProducts.htm" class="btn btn-default"
-										role="button">Descargar<span>&nbsp;</span><span
-										class="glyphicon glyphicon-cloud-download"></span></a>
-								</div>
-
-
 							</div>
 						</div>
 					</div>
