@@ -153,6 +153,7 @@
 		};
 
 		ko.applyBindings(viewModel, $('body')[0]);
+		
 	});
 </script>
 </html>
