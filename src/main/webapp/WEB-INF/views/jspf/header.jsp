@@ -5,7 +5,7 @@
 
 <header class="container-fluid">
 	<div class="row"
-		style="padding-top: 10px; background-image: url(resources/images/headerBackGround.jpg)">
+		style="padding-top: 10px; background-image: url(resources/images/headerBackGround_.jpg); background-repeat: repeat-x;">
 		<div class="col-md-1"></div>
 		<div class="col-md-4" style="text-align: center;">
 			<a href="home.htm"> <img class="logo-image-style"

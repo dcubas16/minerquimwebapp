@@ -7,8 +7,8 @@
 <!-- FOOTER -->
 <footer style="margin-bottom: 0px;">
 	<div class="container"
-		style="background-image: url(resources/images/headerBackGround.jpg); margin-left: 0px; margin-right: 0px; width: 100%; height: 70px;">
-		<div class="row" style="padding-top: 25px;">
+		style="background-image: url(resources/images/headerBackGround_.jpg); background-repeat: repeat-x; margin-left: 0px; margin-right: 0px; width: 100%; height: 100px;">
+		<div class="row" style="padding-top: 40px;">
 			<div class="col-md-1"></div>
 			<div class="col-md-12">
 				<p class="pull-right">

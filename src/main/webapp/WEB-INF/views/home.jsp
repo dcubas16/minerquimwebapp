@@ -28,7 +28,7 @@
 			</ol>
 			<div class="carousel-inner" style="height: 550px;">
 				<div class="item active" style="height: 550px;">
-					<img src="resources/images/mining_26_dim.jpg" alt="First slide"
+					<img src="resources/images/mining_27.jpg" alt="First slide"
 						style="height: 550px;">
 
 				</div>
@@ -47,21 +47,21 @@
 				class="right carousel-control" href="#myCarousel" data-slide="next"
 				style="padding-top: 0px; height: 550px;"><span
 				class="glyphicon glyphicon-chevron-right" style=""></span></a>
-			<div class="container-fluid"
-				style="position: absolute; top: 350; text-align: center; width: 100%; font-family: Montserrat, sans-serif;">
-				<div class="homepage-title">Proveemos insumos químicos de
-					calidad</div>
-			</div>
-			<div class="container-fluid"
-				style="position: absolute; top: 418; text-align: center; width: 100%; font-family: Montserrat, sans-serif;">
-				<div class="homepage-subtitle">para la industria minera y del
-					cuero</div>
-			</div>
-			<div class="container-fluid"
-				style="position: absolute; top: 452; text-align: center; width: 100%; font-family: Montserrat, sans-serif;">
-				<div class="homepage-subtitle">acompañado de un adecuado
-					servicio de asesoramiento técnico</div>
-			</div>
+<!-- 			<div class="container-fluid" -->
+<!-- 				style="position: absolute; top: 350; text-align: center; width: 100%; font-family: Montserrat, sans-serif;"> -->
+<!-- 				<div class="homepage-title">Proveemos insumos químicos de -->
+<!-- 					calidad</div> -->
+<!-- 			</div> -->
+<!-- 			<div class="container-fluid" -->
+<!-- 				style="position: absolute; top: 418; text-align: center; width: 100%; font-family: Montserrat, sans-serif;"> -->
+<!-- 				<div class="homepage-subtitle">para la industria minera y del -->
+<!-- 					cuero</div> -->
+<!-- 			</div> -->
+<!-- 			<div class="container-fluid" -->
+<!-- 				style="position: absolute; top: 452; text-align: center; width: 100%; font-family: Montserrat, sans-serif;"> -->
+<!-- 				<div class="homepage-subtitle">acompañado de un adecuado -->
+<!-- 					servicio de asesoramiento técnico</div> -->
+<!-- 			</div> -->
 		</div>
 		<div class="row" style="margin-left: 0px; margin-right: 0px;">
 			<div class="col-md-12">
