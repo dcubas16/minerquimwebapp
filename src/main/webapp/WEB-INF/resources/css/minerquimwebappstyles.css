@@ -83,12 +83,52 @@
 	display: inline-block;
 }
 
-/* dropdown-menu-minerquim-style, dropdown-menu-minerquim-style:hover, dropdown-menu-minerquim-style:open { */
-/* 	padding-top: 4px; */
-/* 	padding-bottom: 4px; */
-/* 	padding-right: 8px; */
-/* 	font-size: 11px; */
-/* 	color: #AAAAAA; */
-/* 	background-color: #4B4B4B; */
-/* 	border-color: #5C5C5C; */
+
+/****************** NAVBAR **********************/
+#navbar-wrapper {
+	margin-top: 50px;
+}
+
+#navbar-wrapper.affix {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 10;
+	margin-top: 0px;
+	background-color: aqua;
+}
+
+#navbar-wrapper.affix>#nav {
+	background-color: aqua;
+	height: 50px;
+}
+
+/* #navbar-wrapper.affix>#nav>.container>.navbar-header>a>img{ */
+	
 /* } */
+
+.navbar-greypower{
+	height: 100px;
+	background-color: transparent;
+	border-width: 0px;
+	border-color: transparent;
+}
+
+/****************** circle button go to TOP **********************/
+#top-link {
+	display: none;
+	position: fixed;
+	right: 30px;
+	bottom: 25px;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 10px;
+	opacity: 0.8
+}
+
+.btn-circle.btn-lg {
+	width: 50px;
+	height: 50px;
+	padding: 10px 16px;
+	border-radius: 25px;
+}
