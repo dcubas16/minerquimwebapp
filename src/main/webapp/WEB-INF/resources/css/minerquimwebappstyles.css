@@ -86,7 +86,9 @@
 
 /****************** NAVBAR **********************/
 #navbar-wrapper {
-	margin-top: 50px;
+/* 	padding-top: 10px; */
+	margin-top: 10px;
+	
 }
 
 #navbar-wrapper.affix {
@@ -103,15 +105,29 @@
 	height: 50px;
 }
 
-/* #navbar-wrapper.affix>#nav>.container>.navbar-header>a>img{ */
-	
-/* } */
+.navbar-items{
+	padding-top: 40px;
+}
+
+.navbar-header-space{
+    padding-left: 80px;
+}
+
+.navbar-items-space{
+	text-align: center;
+	padding-left: 450px;
+}
 
 .navbar-greypower{
 	height: 100px;
 	background-color: transparent;
 	border-width: 0px;
 	border-color: transparent;
+}
+
+
+.navbar-nav>li>a{
+	color: white;
 }
 
 /****************** circle button go to TOP **********************/

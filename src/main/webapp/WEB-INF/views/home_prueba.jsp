@@ -9,56 +9,50 @@
 <html lang="es_PE">
 <head>
 <c:import url="../views/jspf/resources.jsp" />
-
 </head>
 <!-- NAVBAR
 ================================================== -->
 <body>
 	<header class="full-wrapper" style="padding: 0 15px;">
 		<div class="row hero-image"
-			style="padding-top: 10px; height: 100px; background-image: url(resources/images/headerBackGround_.jpg); background-repeat: repeat-x;">
+			style="padding-top: 10px; height: 110px; background-image: url(resources/images/headerBackGround_.jpg); background-repeat: repeat-x;">
 		</div>
-
-		<div id="navbar-wrapper" class="navbar-wrapper"
-			style="padding: 0 15px;">
-			<div id="nav" class="navbar navbar-default navbar-greypower"
-				role="banner" style="margin-bottom: 0px;">
-				<div class="container">
-					<div class="navbar-header">
-						<button class="navbar-toggle" type="button" data-toggle="collapse"
-							data-target=".bs-navbar-collapse">
-							<span class="sr-only">Toggle navigation</span> <span
-								class="icon-bar"></span> <span class="icon-bar"></span> <span
-								class="icon-bar"></span>
-						</button>
-						<a href="home.htm"> <img class="logo-image-style"
-							src="resources/images/minerquim-logo.png" height="100"
-							width="200">
-						</a>
-					</div>
-					<!-- navbar-header -->
-					<nav class="collapse navbar-collapse bs-navbar-collapse"
-						style="text-align: center;" role="navigation">
-						<ul class="nav nav-pills">
-							<li class="active"><a href="#home">INICIO</a></li>
-							<li><a href="#resume">NOSOTROS</a></li>
-							<li><a href="#portfolio">PRODUCTOS</a></li>
-							<li><a href="#contact">SERVICIOS</a></li>
-							<li><a href="#contact">CONTACTANOS</a></li>
-						</ul>
-						<ul class="nav navbar-right">
-							<li class="dropdown"><a href="#" class="dropdown-toggle"
-								data-toggle="dropdown">Español<span class="caret"></span></a>
-								<ul class="dropdown-menu" role="menu">
-									<li><a href="#">Ingles</a></li>
-								</ul></li>
-						</ul>
-					</nav>
+		<nav id="navbar-wrapper " class="navbar navbar-default navbar-greypower" role="navigation">
+			<div class="container-fluid">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed"
+						data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span> <span
+							class="icon-bar"></span> <span class="icon-bar"></span> <span
+							class="icon-bar"></span>
+					</button>
+					<a href="home.htm"> <img class="logo-image-style"
+						src="resources/images/minerquim-logo.png" height="100" width="200">
+					</a>
 				</div>
-				<!-- container -->
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse"
+					id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="#">INICIO</a></li>
+						<li><a href="#">NOSOTROS</a></li>
+						<li><a href="#">PRODUCTOS</a></li>
+						<li><a href="#">SERVICIOS</a></li>
+						<li><a href="#">CONTACTANOS</a></li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li class="dropdown"><a href="#" class="dropdown-toggle"
+							data-toggle="dropdown">Español <span class="caret"></span></a>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="#">English</a></li>
+							</ul></li>
+					</ul>
+				</div>
+				<!-- /.navbar-collapse -->
 			</div>
-			<!-- navbar -->
-		</div>
+			<!-- /.container-fluid -->
+		</nav>
 	</header>
 
 	<!-- navbar-wrapper -->
