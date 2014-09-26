@@ -83,12 +83,19 @@
 	display: inline-block;
 }
 
-
 /****************** NAVBAR **********************/
-#navbar-wrapper {
-/* 	padding-top: 10px; */
+.minerqauim-navbar-wrapper {
+	/* 	padding-top: 10px; */
 	margin-top: 10px;
-	
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 20;
+}
+
+#navbar-wrapper {
+	margin-top: 10px;
 }
 
 #navbar-wrapper.affix {
@@ -105,30 +112,55 @@
 	height: 50px;
 }
 
-.navbar-items{
-	padding-top: 40px;
+.navbar-items {
+	padding-top: 30px;
 }
 
-.navbar-header-space{
-    padding-left: 80px;
-}
+/* .navbar-header-space{ */
+/*     padding-left: 80px; */
+/* } */
 
-.navbar-items-space{
-	text-align: center;
-	padding-left: 450px;
-}
-
-.navbar-greypower{
+/* .navbar-items-space{ */
+/* 	text-align: center; */
+/* 	padding-left: 450px; */
+/* } */
+.navbar-greypower {
 	height: 100px;
 	background-color: transparent;
 	border-width: 0px;
 	border-color: transparent;
 }
 
-
-.navbar-nav>li>a{
+.navbar-nav>li>a {
 	color: white;
 }
+
+.dropdown-menu-minerquim-style {
+	top: 26%;
+}
+
+.navbar-default .navbar-nav>.active>a,.navbar-default .navbar-nav>.active>a:hover,.navbar-default .navbar-nav>.active>a:focus
+	{
+	color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a:hover,.navbar-default .navbar-nav>li>a:focus
+	{
+	color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #fff;
+}
+
+.navbar-items{
+	padding-left: 10%;
+}
+
+.navbar-header{
+	padding-left: 17%;
+}
+    
 
 /****************** circle button go to TOP **********************/
 #top-link {
