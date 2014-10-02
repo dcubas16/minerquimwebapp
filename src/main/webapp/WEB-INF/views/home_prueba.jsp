@@ -17,10 +17,12 @@
 		<div class="row hero-image"
 			style="padding-top: 10px; height: 110px; background-image: url(resources/images/headerBackGround_.jpg); background-repeat: repeat-x;">
 		</div>
-		<nav id="navbar-wrapper " class="navbar navbar-default navbar-greypower" role="navigation">
+		<nav id="navbar-wrapper"
+			class="navbar navbar-default minerqauim-navbar-wrapper navbar-greypower"
+			role="navigation">
 			<div class="container-fluid">
 				<!-- Brand and toggle get grouped for better mobile display -->
-				<div class="navbar-header">
+				<div class="navbar-header navbar-header">
 					<button type="button" class="navbar-toggle collapsed"
 						data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
 						<span class="sr-only">Toggle navigation</span> <span
@@ -42,11 +44,19 @@
 						<li><a href="#">CONTACTANOS</a></li>
 					</ul>
 					<ul class="nav navbar-nav navbar-right">
-						<li class="dropdown"><a href="#" class="dropdown-toggle"
-							data-toggle="dropdown">Español <span class="caret"></span></a>
-							<ul class="dropdown-menu" role="menu">
-								<li><a href="#">English</a></li>
-							</ul></li>
+						<button type="button"
+							class="btn btn-default btn-xs dropdown-toggle button-dropdown-black "
+							data-toggle="dropdown"
+							style="padding-top: 4px; padding-bottom: 4px; padding-right: 8px; font-size: 11px;">
+							<span class="glyphicon bfh-flag-ES"></span>
+							<spring:message code="label.spanish" />
+							&nbsp;<span class="caret"></span>
+						</button>
+						<ul class="dropdown-menu dropdown-menu-minerquim-style"
+							role="menu">
+							<li><a href="#"><span class="glyphicon bfh-flag-US"></span>
+									<spring:message code="label.english" />&nbsp;</a></li>
+						</ul>
 					</ul>
 				</div>
 				<!-- /.navbar-collapse -->
