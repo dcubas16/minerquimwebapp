@@ -26,6 +26,14 @@ public class MainController {
 		return "home_prueba";
 	}
 	
+	@RequestMapping(value="home_new_navbar.htm", method=RequestMethod.GET )
+	public String home_new_navbar(Model model)
+	{
+		return "home_new_navbar";
+	}
+	
+	
+	
 	@RequestMapping(value="products.htm", method=RequestMethod.GET )
 	public String products(Model model)
 	{

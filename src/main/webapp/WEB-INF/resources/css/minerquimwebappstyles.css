@@ -54,7 +54,7 @@
 }
 
 .logo-image-style {
-	padding-bottom: 8px;
+	padding-bottom: 0px;
 }
 
 .homepage-title-contaier {
@@ -147,7 +147,7 @@
 }
 
 .nav.navbar-nav.nav-minerquim-style {
-	padding-top: 20px;
+/* 	padding-top: 20px; */
 }
 
 .navbar-default .navbar-nav.language-buttom-style>li>a {
@@ -207,15 +207,35 @@
 	top: 2px;
 }
 
-.header-navbar-style{
-	padding-left: 220px;
+/* .header-navbar-style{ */
+/* 	padding-left: 20%; */
+/* } */
+
+/* .header-menu-style{ */
+/* 	padding-right: 5%; */
+/* } */
+
+
+/********* NAVBAR FINAL *********/
+.minerquim-navbar-style{
+	background-image: url(../images/headerBackGround_.jpg); 
+	background-repeat: repeat-x;
 }
 
-.header-menu-style{
-	padding-left: 150px;
+.tiny-logo-image-style{
+	display: none;
 }
 
 
+.navbar-pad-original>.container>.navbar-header>a>img.tiny-logo-image-style {
+      display: inline-block;
+      
+}
+
+.navbar-pad-original>.container>.navbar-header>a>img.logo-image-style {
+      display: none;
+      
+}
 /****************** circle button go to TOP **********************/
 #top-link {
 	display: none;
