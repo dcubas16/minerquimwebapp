@@ -43,7 +43,7 @@
 	<header>
 		<div
 			class="navbar navbar-default navbar-fixed-top minerquim-navbar-style">
-			<div class="container">
+			<div class="container-fluid">
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle collapsed"
 						data-toggle="collapse" data-target=".navbar-collapse">
@@ -59,7 +59,7 @@
 				</div>
 				<div class="navbar-collapse collapse">
 					<ul class="nav navbar-nav nav-minerquim-style header-menu-style">
-						<li><a href="index.html"><strong>INICIO</strong></a></li>
+						<li class="active"><a href="index.html"><strong>INICIO</strong></a></li>
 						<li><a href="services.html">NOSOTROS</a></li>
 						<li><a href="portfolio.html">PRODUCTOS</a></li>
 						<li><a href="pricing.html">SERVICIOS</a></li>
@@ -74,8 +74,7 @@
 								<li><a href="#"><span
 										class="glyphicon bfh-flag-US language-flag-style"></span>English
 								</a></li>
-							</ul>
-						</li>
+							</ul></li>
 					</ul>
 				</div>
 

@@ -128,7 +128,7 @@
 	color: #fff;
 	font-family: lucida sans unicode, lucida grande, sans-serif;
 	font-weight: 800;
-	font-size: 14px;
+	font-size: 15px;
 }
 
 .navbar-default .navbar-nav.nav-minerquim-style>li>a:hover {
@@ -136,14 +136,14 @@
 	color: #fff;
 	font-family: lucida sans unicode, lucida grande, sans-serif;
 	font-weight: 800;
-	font-size: 14px;
+	font-size: 15px;
 }
 
 .navbar-default .navbar-nav.nav-minerquim-style>li>a {
 	color: #E2E2E2;
 	font-family: lucida sans unicode, lucida grande, sans-serif;
 	font-weight: 800;
-	font-size: 14px;
+	font-size: 15px;
 }
 
 .nav.navbar-nav.nav-minerquim-style {
@@ -227,12 +227,12 @@
 }
 
 
-.navbar-pad-original>.container>.navbar-header>a>img.tiny-logo-image-style {
+.navbar-pad-original>.container-fluid>.navbar-header>a>img.tiny-logo-image-style {
       display: inline-block;
       
 }
 
-.navbar-pad-original>.container>.navbar-header>a>img.logo-image-style {
+.navbar-pad-original>.container-fluid>.navbar-header>a>img.logo-image-style {
       display: none;
       
 }
