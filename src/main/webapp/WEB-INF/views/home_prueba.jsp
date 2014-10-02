@@ -34,7 +34,7 @@
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse"
 					id="bs-example-navbar-collapse-1">
-					<ul class="nav navbar-nav">
+					<ul class="nav navbar-nav nav-minerquim-style">
 						<li class="active"><a href="#">INICIO</a></li>
 						<li><a href="#">NOSOTROS</a></li>
 						<li><a href="#">PRODUCTOS</a></li>
