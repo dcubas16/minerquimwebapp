@@ -116,14 +116,6 @@
 	padding-top: 30px;
 }
 
-/* .navbar-header-space{ */
-/*     padding-left: 80px; */
-/* } */
-
-/* .navbar-items-space{ */
-/* 	text-align: center; */
-/* 	padding-left: 450px; */
-/* } */
 .navbar-greypower {
 	height: 100px;
 	background-color: transparent;
@@ -131,14 +123,98 @@
 	border-color: transparent;
 }
 
-.navbar-nav>li>a {
-	color: white;
+.navbar-default .navbar-nav.nav-minerquim-style>.active>a {
+	background-image: url(../images/mainMenuBackgroundBoton.jpg);
+	color: #fff;
+	font-family: lucida sans unicode, lucida grande, sans-serif;
+	font-weight: 800;
+	font-size: 14px;
 }
 
-
-ul.nav-minerquim-style{
-	
+.navbar-default .navbar-nav.nav-minerquim-style>li>a:hover {
+	background-image: url(../images/mainMenuBackgroundBoton.jpg);
+	color: #fff;
+	font-family: lucida sans unicode, lucida grande, sans-serif;
+	font-weight: 800;
+	font-size: 14px;
 }
+
+.navbar-default .navbar-nav.nav-minerquim-style>li>a {
+	color: #E2E2E2;
+	font-family: lucida sans unicode, lucida grande, sans-serif;
+	font-weight: 800;
+	font-size: 14px;
+}
+
+.nav.navbar-nav.nav-minerquim-style {
+	padding-top: 20px;
+}
+
+.navbar-default .navbar-nav.language-buttom-style>li>a {
+	color: #BEBEBE;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	padding: 10px 10px 10px 10px;
+}
+
+.navbar-default .navbar-nav.language-buttom-style>li>a:hover,.navbar-default .navbar-nav.language-buttom-style>li.dropdown.open>a:hover
+	{
+	color: #BEBEBE;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	padding: 10px 10px 10px 10px;
+	background-color: #000000;
+}
+
+.navbar-default .navbar-nav.language-buttom-style>li.dropdown.open>a {
+	color: #BEBEBE;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	padding: 10px 10px 10px 10px;
+	background-color: #1F1F1F;
+}
+
+.dropdown-menu {
+	background-color: #1F1F1F;
+	border-radius: 0px;
+	min-width: 120px;
+	padding: 0px;
+}
+
+.dropdown-menu>li>a {
+	color: #BEBEBE;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.dropdown-menu>li>a:hover {
+	color: #BEBEBE;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	background-color: #000000;
+}
+
+.dropdown-menu>li>a:hover {
+	color: #BEBEBE;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	background-color: #000000;
+}
+
+.language-flag-style {
+	top: 2px;
+}
+
+.header-navbar-style{
+	padding-left: 220px;
+}
+
+.header-menu-style{
+	padding-left: 150px;
+}
+
 
 /****************** circle button go to TOP **********************/
 #top-link {
